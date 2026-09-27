@@ -31,12 +31,12 @@ export default function HomePage() {
     <>
       <section className="relative overflow-hidden">
         <div className="hero-plane absolute inset-0" aria-hidden />
-        <div className="relative mx-auto grid max-w-6xl gap-10 px-5 py-16 sm:px-8 sm:py-20 lg:grid-cols-[1.1fr_0.9fr] lg:items-end lg:py-24">
-          <div className="max-w-xl text-paper">
+        <div className="relative mx-auto grid max-w-6xl gap-10 px-5 py-16 sm:px-8 sm:py-20 lg:grid-cols-[1.05fr_0.95fr] lg:items-start lg:gap-12 lg:py-24">
+          <div className="max-w-xl text-paper lg:sticky lg:top-28 lg:pt-2">
             <p className="reveal text-[0.7rem] font-medium uppercase tracking-[0.2em] text-stone-soft">
               {site.name}
             </p>
-            <h1 className="reveal reveal-delay-1 mt-4 font-display text-4xl leading-[1.1] sm:text-5xl lg:text-[3.4rem]">
+            <h1 className="reveal reveal-delay-1 mt-4 font-display text-4xl leading-[1.1] sm:text-5xl lg:text-[3.35rem]">
               Your property. Fixed rent. You rest well.
             </h1>
             <p className="reveal reveal-delay-2 mt-5 max-w-md text-base leading-relaxed text-paper/85 sm:text-lg">
