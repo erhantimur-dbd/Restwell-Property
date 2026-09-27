@@ -21,8 +21,19 @@ export const site = {
     insurance:
       "Public liability, professional indemnity and employers’ insurance details TBC.",
   },
-  areas: "Across the UK",
+  areas: "Islington and neighbouring North London",
   propertyFocus: "Houses",
+  demandFocus: {
+    label: "High demand now",
+    place: "Islington",
+    areas: [
+      "King’s Cross",
+      "Highbury & Islington",
+      "Camden",
+      "Caledonian Road",
+      "Finsbury Park",
+    ],
+  },
 } as const;
 
 export const nav = [
