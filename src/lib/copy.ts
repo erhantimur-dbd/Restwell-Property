@@ -5,7 +5,7 @@ export const homeFaqs = [
   },
   {
     q: "Is this rent-guarantee insurance?",
-    a: "No. The guarantee is contractual. Restwell becomes your tenant. It is not an insurance product.",
+    a: "No. The guarantee is contractual. Restwell becomes your tenant. It is not an insurance product. It’s a commercial lease, so the landlord can remove us in twenty-one days if we stop paying.",
   },
   {
     q: "Will I get open-market rent?",
