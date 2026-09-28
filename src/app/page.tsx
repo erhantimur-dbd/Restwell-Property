@@ -56,10 +56,6 @@ export default function HomePage() {
               <p className="text-[0.68rem] font-medium uppercase tracking-[0.16em] text-stone">
                 {site.demandFocus.label}
               </p>
-              <p className="mt-2 text-sm font-medium text-paper">
-                Houses in {site.demandFocus.place} — we are actively reviewing
-                stock
-              </p>
               <p className="mt-3 text-sm leading-relaxed text-paper/75">
                 {site.demandFocus.areas.join(" · ")}
               </p>

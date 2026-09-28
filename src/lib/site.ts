@@ -24,7 +24,7 @@ export const site = {
   areas: "Islington and neighbouring North London",
   propertyFocus: "Houses",
   demandFocus: {
-    label: "High demand now",
+    label: "Currently reviewing houses in Islington",
     place: "Islington",
     areas: [
       "King’s Cross",
