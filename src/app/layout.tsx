@@ -21,12 +21,12 @@ const display = Newsreader({
 export const metadata: Metadata = {
   metadataBase: new URL(`https://${site.domain}`),
   title: {
-    default: `Restwell Property | Guaranteed rent for landlords in the UK`,
+    default: `Restwell Property | Guaranteed rent for landlords in Islington`,
     template: `%s | Restwell Property`,
   },
   description: site.positioning,
   openGraph: {
-    title: `Restwell Property | Guaranteed rent for landlords in the UK`,
+    title: `Restwell Property | Guaranteed rent for landlords in Islington`,
     description: site.positioning,
     url: `https://${site.domain}`,
     siteName: site.name,

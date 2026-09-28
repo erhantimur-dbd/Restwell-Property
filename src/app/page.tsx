@@ -14,12 +14,13 @@ import { site } from "@/lib/site";
 
 export const metadata: Metadata = {
   title: {
-    absolute: `Restwell Property | Guaranteed rent for landlords in the UK`,
+    absolute: `Restwell Property | Guaranteed rent for landlords in Islington`,
   },
   description:
-    "Guaranteed rent for UK landlords. We become your tenant, pay fixed income on the same date every month, and look after the home.",
+    "Guaranteed rent for landlords in Islington and North London. We become your tenant, pay fixed income on the same date every month, and look after the home.",
   keywords: [
-    "guaranteed rent UK",
+    "guaranteed rent Islington",
+    "guaranteed rent King’s Cross",
     "fixed rental income",
     "company let for landlords",
     "hands-off property management",
@@ -50,6 +51,18 @@ export default function HomePage() {
               <Button href="/how-it-works" variant="ghost">
                 See how it works
               </Button>
+            </div>
+            <div className="reveal reveal-delay-3 mt-10 border-t border-paper/15 pt-6">
+              <p className="text-[0.68rem] font-medium uppercase tracking-[0.16em] text-stone">
+                {site.demandFocus.label}
+              </p>
+              <p className="mt-2 text-sm font-medium text-paper">
+                Houses in {site.demandFocus.place} — we are actively reviewing
+                stock
+              </p>
+              <p className="mt-3 text-sm leading-relaxed text-paper/75">
+                {site.demandFocus.areas.join(" · ")}
+              </p>
             </div>
           </div>
           <div className="reveal reveal-delay-2">
@@ -174,14 +187,15 @@ export default function HomePage() {
       <Section>
         <div className="grid gap-10 lg:grid-cols-2 lg:items-center">
           <div>
-            <Eyebrow>Houses across the UK</Eyebrow>
+            <Eyebrow>Islington & North London</Eyebrow>
             <h2 className="mt-3 font-display text-3xl text-navy sm:text-4xl">
               Properties we take on
             </h2>
             <p className="mt-4 text-muted">
               We focus on houses suitable for professional rooms, a single let, or
               carefully run serviced stays — where licensing and consents can be
-              put in order.
+              put in order. Demand is strongest around Islington, including{" "}
+              {site.demandFocus.areas.join(", ")}.
             </p>
             <ul className="mt-6 space-y-2 text-sm text-navy">
               <li>Areas: {site.areas}</li>
